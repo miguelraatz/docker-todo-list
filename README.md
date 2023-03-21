@@ -1,6 +1,3 @@
-# Docker Todo List
-Projeto da [Trybe](https://www.betrybe.com/) - Bloco 19 - Criação e orquestração de containers com Docker.
-
 ## 💻 Projeto
 
 "Conteinerização" de aplicações de frontend, backend e testes com o uso de Docker, criando uma conexão entre elas e orquestrando seu funcionamento.
