@@ -1,5 +1,13 @@
-FROM node:14
+FROM node:14 AS todobackend
 
-RUN npm install
+WORKDIR /app
 
 EXPOSE 3001
+
+ADD node_modules.tar.gz .
+
+COPY . .
+
+ENTRYPOINT [ "npm" ]
+
+CMD [ "start" ]
